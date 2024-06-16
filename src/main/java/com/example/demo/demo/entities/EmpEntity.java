@@ -1,5 +1,6 @@
 package com.example.demo.demo.entities;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,6 +21,7 @@ public class EmpEntity {
     private Long Id;
     private String name;
     private String email;
+    
     private String department;
 
 }
